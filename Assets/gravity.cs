@@ -3,22 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class black_hole_gravity : MonoBehaviour
+public class gravity : MonoBehaviour
 {
     Rigidbody2D rb;
     Rigidbody2D other_rb;
     Transform other_trans;
-    SpriteRenderer sprite;
     public float G = 1f;
-    Color sprite_color;
     bool in_range = false;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
-        sprite = GetComponent(typeof(SpriteRenderer)) as SpriteRenderer;
-        sprite_color = sprite.color;
     }
 
     // Update is called once per frame
@@ -38,7 +34,6 @@ public class black_hole_gravity : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        sprite.color = Color.red;
         in_range = true;
         other_trans = other.gameObject.GetComponent(typeof(Transform)) as Transform;
         other_rb = other.gameObject.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
@@ -51,8 +46,8 @@ public class black_hole_gravity : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        sprite.color = sprite_color;
         in_range = false;
-        other_rb.velocity = new Vector2(0,0);
     }
+
+    
 }
