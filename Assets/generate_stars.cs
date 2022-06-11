@@ -17,17 +17,6 @@ public class generate_stars : MonoBehaviour
     GameObject main_camera;
     void Start()
     {
-        // for (int i = 0; i < star_count; i++)
-        // {
-        //     float r = radius * MathF.Sqrt(UnityEngine.Random.Range(0f, 1f));
-        //     float theta = UnityEngine.Random.Range(0f, 1f) * 2f * MathF.PI;
-        //     float x = r * MathF.Cos(theta);
-        //     float y = r * MathF.Sin(theta);
-        //     float scale = UnityEngine.Random.Range(min_scale, max_scale);
-        //     var instance = Instantiate(star, new Vector3(x, y, 20), Quaternion.identity);
-        //     instance.transform.localScale = new Vector3(scale, scale, 1.0f);
-        //     instance.transform.parent = transform;
-        // }
         main_camera = GameObject.FindGameObjectWithTag("MainCamera");
         for (int i = 0; i < layer_count; i++)
         {

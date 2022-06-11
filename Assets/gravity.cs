@@ -6,10 +6,10 @@ using System;
 public class gravity : MonoBehaviour
 {
     Rigidbody2D rb;
+    List<(Rigidbody2D rb, Transform trans)> object_list = new List<(Rigidbody2D rb, Transform trans)>();
     Rigidbody2D other_rb;
     Transform other_trans;
     public float G = 1f;
-    bool in_range = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,34 +20,25 @@ public class gravity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (in_range)
+        foreach (var elem in object_list)
         {
-            float dx = transform.position.x - other_trans.position.x;
-            float dy = transform.position.y - other_trans.position.y;
-            float r_sq = dx * dx + dy * dy;
-            var n = new Vector2(dx, dy);
-            n.Normalize();
-            Vector2 F = (G * other_rb.mass * rb.mass / r_sq) * n;
-            other_rb.velocity += Time.deltaTime * F / other_rb.mass;
+            if (elem.trans != null)
+            {
+                float dx = transform.position.x - elem.trans.position.x;
+                float dy = transform.position.y - elem.trans.position.y;
+                float r_sq = dx * dx + dy * dy;
+                var n = new Vector2(dx, dy);
+                n.Normalize();
+                Vector2 F = (G * elem.rb.mass * rb.mass / r_sq) * n;
+                elem.rb.velocity += Time.deltaTime * F / elem.rb.mass;
+            }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        in_range = true;
         other_trans = other.gameObject.GetComponent(typeof(Transform)) as Transform;
         other_rb = other.gameObject.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
+        object_list.Add((other_rb, other_trans));
     }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        //Destroy(other.gameObject);
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        in_range = false;
-    }
-
-    
 }

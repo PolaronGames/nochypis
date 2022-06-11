@@ -14,6 +14,7 @@ public class exhaust : MonoBehaviour
     public float particle_speed = 1f;
     public float cone_angle = 10f;
     LinkedList<GameObject> particles = new LinkedList<GameObject>();
+    public bool ship_landed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class exhaust : MonoBehaviour
     void Update()
     {
         int num_particles = (int)((Time.realtimeSinceStartup - last_time) / particle_rate);
-        if (Input.GetKey("space"))
+        if (true || Input.GetKey("space") || ship_landed)
         {
             Vector2 dir = -player.transform.up;
             Vector3 particle_pos = player.transform.position + (Vector3)dir * 0.5f;

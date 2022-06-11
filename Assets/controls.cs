@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class controls : MonoBehaviour
 {
@@ -13,6 +14,12 @@ public class controls : MonoBehaviour
     GameObject main_camera;
     public float camera_speed = 5f;
     HingeJoint2D joint;
+    bool landed = false;
+    float zoom_scale = 2f;
+    Camera cam;
+    public GameObject eugene;
+    bool eugene_walking = false;
+    GameObject planet;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +28,15 @@ public class controls : MonoBehaviour
         laser.SetActive(false);
         rb = GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
         main_camera = GameObject.FindGameObjectWithTag("MainCamera");
+        planet = GameObject.FindGameObjectWithTag("Finish");
         main_camera_rb = main_camera.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
         joint = GetComponent(typeof(HingeJoint2D)) as HingeJoint2D;
         joint.enabled = false;
+        cam = main_camera.GetComponent<Camera>();
+
+        // point ship to planet
+        var dir = planet.transform.position - transform.position;
+        transform.eulerAngles = Vector3.forward * (-90f + MathF.Atan2(dir.y, dir.x) * 180f / MathF.PI);
     }
 
     // Update is called once per frame
@@ -31,7 +44,7 @@ public class controls : MonoBehaviour
     {
         // Linear forces
         Vector2 acc = new Vector2(0, 0);
-        if (Input.GetKey("space"))
+        if (true || Input.GetKey("space") || landed) // comically accelerate the ship after landing
         {
             // accelerate in direction ship is facing
             Vector2 dir = transform.up;
@@ -61,24 +74,76 @@ public class controls : MonoBehaviour
             laser.SetActive(false);
         }
 
-        // move camera to ship
-        Vector3 camera_dir = (Vector3)((Vector2)(transform.position - main_camera.transform.position));
-        float r = camera_dir.magnitude;
-        camera_dir.Normalize();
-        main_camera_rb.velocity = camera_dir * r * r * camera_speed;
+
+        // zoom the camera if landed
+        if (landed)
+        {
+            if (MathF.Abs(cam.orthographicSize - zoom_scale) < 1e-3)
+            {
+                cam.orthographicSize = zoom_scale;
+            }
+            else
+            {
+                cam.orthographicSize += (zoom_scale - cam.orthographicSize) * Time.deltaTime;
+            }
+        }
+        else
+        {
+            // move camera to ship
+            Vector3 camera_dir = (Vector3)((Vector2)(transform.position - main_camera.transform.position));
+            float r = camera_dir.magnitude;
+            camera_dir.Normalize();
+            main_camera_rb.velocity = camera_dir * r * r * camera_speed;
+
+            // adjust camera scale based on speed
+            cam.orthographicSize += (10f + rb.velocity.magnitude - cam.orthographicSize) * Time.deltaTime / 10f;
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Rigidbody2D other_rb = other.gameObject.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
-        joint.enabled = true;
-        joint.connectedBody = other_rb;
-        joint.autoConfigureConnectedAnchor = false;
+        if (other.gameObject.tag == "Finish")
+        {
+            //stop planet spinning
+            other.gameObject.GetComponent<spin>().spin_speed = 0f;
+            // destroy all enemies and bullets
+            var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            var bullets = GameObject.FindGameObjectsWithTag("Bullet");
+            foreach (GameObject enemy in enemies)
+            {
+                Destroy(enemy);
+            }
+            foreach (GameObject bullet in bullets)
+            {
+                Destroy(bullet);
+            }
+
+            landed = true;
+            GameObject.FindGameObjectWithTag("Exhaust").GetComponent<exhaust>().ship_landed = true;
+            linear_acc *= 1.5f;
+            // spawn Eugene
+            if (!eugene_walking)
+            {
+                float distance_from_planet_center = 0.9025f;
+                eugene_walking = true;
+                Vector2 dir = transform.position - other.gameObject.transform.position;
+                Vector3 eugene_pos = (Vector2)other.gameObject.transform.position + distance_from_planet_center * dir;
+                eugene_pos.z = transform.position.z;
+                Instantiate(eugene, eugene_pos, Quaternion.identity);
+            }
+        }
+        if (other.gameObject.tag == "Bullet")
+        {
+            //Destroy(this.gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        joint.enabled = false;
-        joint.connectedBody = null;
-        joint.autoConfigureConnectedAnchor = true;
-    }
+    //private void OnCollisionExit2D(Collision2D other)
+    //{
+    //    joint.enabled = false;
+    //    joint.connectedBody = null;
+    //    joint.autoConfigureConnectedAnchor = true;
+    //    landed = false;
+    //}
 }
