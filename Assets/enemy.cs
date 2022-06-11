@@ -36,31 +36,23 @@ public class enemy : MonoBehaviour
                 float v1 = player_rb.velocity.magnitude;
                 if (fire_speed > v1)
                 {
-                    float theta1 = Vector2.Dot((Vector2)player_rb.velocity, -(Vector2)dir) / (v1 * dir.magnitude);
-                    float cross_z = Vector3.Cross(player_rb.velocity, -dir).z;
-                    float theta2;
-                    Vector2 fire_dir;
-                    if (cross_z > 0f)
+                    // point at Eugene
+                    Vector2 fire_dir = dir;
+                    if (v1 > 0f)
                     {
-                        theta2 = MathF.Asin((v1 / fire_speed) * MathF.Sin(theta1));
+                        // lead the shot
+                        Vector3 cross = Vector3.Cross(player_rb.velocity, -dir);
+                        float theta1 = cross.magnitude/ (v1 * dir.magnitude);
+                        float cross_z = cross.z;
+                        float theta2 = MathF.Sign(cross_z) * MathF.Asin((v1 / fire_speed) * MathF.Sin(theta1));
                         fire_dir.x = (MathF.Cos(theta2) * dir.x - MathF.Sin(theta2) * dir.y);
-                        fire_dir.y = -(MathF.Sin(theta2) * dir.x - MathF.Cos(theta2) * dir.y);
-                    }
-                    else if (cross_z < 0f)
-                    {
-                        theta2 = -MathF.Asin((v1 / fire_speed) * MathF.Sin(theta1));
-                        fire_dir.x = (MathF.Cos(theta2) * dir.x - MathF.Sin(theta2) * dir.y);
-                        fire_dir.y = -(MathF.Sin(theta2) * dir.x - MathF.Cos(theta2) * dir.y);
-                    }
-                    else
-                    {
-                        fire_dir = dir;
+                        fire_dir.y = (MathF.Sin(theta2) * dir.x + MathF.Cos(theta2) * dir.y);
                     }
                     var bullet_obj = Instantiate(bullet, transform.position, Quaternion.identity);
                     var bullet_rb = bullet_obj.GetComponent<Rigidbody2D>();
                     bullet_rb.velocity = fire_dir * fire_speed;
-                    transform.eulerAngles = Vector3.forward * (MathF.Atan2(fire_dir.y, fire_dir.x) * 180f / MathF.PI);
                     prev_shot_time = Time.realtimeSinceStartup;
+                    transform.eulerAngles = Vector3.forward * (MathF.Atan2(fire_dir.y, fire_dir.x) * 180f / MathF.PI);
                 }
             }
         }

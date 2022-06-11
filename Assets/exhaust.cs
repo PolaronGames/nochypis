@@ -27,7 +27,7 @@ public class exhaust : MonoBehaviour
     void Update()
     {
         int num_particles = (int)((Time.realtimeSinceStartup - last_time) / particle_rate);
-        if (true || Input.GetKey("space") || ship_landed)
+        if (Input.GetKey("space") || ship_landed)
         {
             Vector2 dir = -player.transform.up;
             Vector3 particle_pos = player.transform.position + (Vector3)dir * 0.5f;

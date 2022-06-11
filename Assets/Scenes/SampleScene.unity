@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planet: {fileID: 3220962637614961524, guid: d9d32f7913c379f16a3a9fc0c3080bf5, type: 3}
-  enemy: {fileID: 7487034796182389873, guid: fc7f5aed403211ed486cad56aaeb6207, type: 3}
+  enemy: {fileID: 8047307175107708103, guid: fc7f5aed403211ed486cad56aaeb6207, type: 3}
   enemy_count: 100
   planet_dist: 50
 --- !u!4 &688131432
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotation_acc: 200
-  linear_acc: 10
+  linear_acc: 2
   camera_speed: 5
   eugene: {fileID: 1922213673243487669, guid: 843b20529d6c365a88d9922fdc6376aa, type: 3}
 --- !u!60 &1623202992

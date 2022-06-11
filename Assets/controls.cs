@@ -44,7 +44,7 @@ public class controls : MonoBehaviour
     {
         // Linear forces
         Vector2 acc = new Vector2(0, 0);
-        if (true || Input.GetKey("space") || landed) // comically accelerate the ship after landing
+        if (Input.GetKey("space") || landed) // comically accelerate the ship after landing
         {
             // accelerate in direction ship is facing
             Vector2 dir = transform.up;
