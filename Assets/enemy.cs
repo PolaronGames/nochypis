@@ -5,8 +5,8 @@ using System;
 
 public class enemy : MonoBehaviour
 {
-    GameObject player;
-    Rigidbody2D player_rb;
+    public GameObject player;
+    public Rigidbody2D player_rb;
     public GameObject bullet;
     bool in_range = false;
     public float fire_rate = 1f;
@@ -22,7 +22,6 @@ public class enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         // we want to lead the shot, so calculate where Eugene will be if his velocity is constant and adjust the angle
         if (in_range)
         {

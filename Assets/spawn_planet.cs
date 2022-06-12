@@ -7,8 +7,9 @@ public class spawn_planet : MonoBehaviour
 {
     public GameObject planet;
     public GameObject enemy;
-    public int enemy_count = 100;
+    public int enemy_count = 2;
     public float planet_dist = 500f;
+    public float enemy_radius = 2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,18 +22,13 @@ public class spawn_planet : MonoBehaviour
         // spawn enemies
         for (int j = 0; j < enemy_count; j++)
         {
-            float r = planet_dist * MathF.Sqrt(UnityEngine.Random.Range(0f, 1f));
-            float theta = UnityEngine.Random.Range(0f, 1f) * 2f * MathF.PI;
-            float x = r * MathF.Cos(theta);
-            float y = r * MathF.Sin(theta);
-            float dx = (x - heading.x);
-            float dy = (y - heading.y);
-            float dist_to_planet = MathF.Sqrt(dx * dx + dy * dy);
-            if (dist_to_planet > 10 && r > 10)
-            {
-                Instantiate(enemy, new Vector3(x, y, 20), Quaternion.identity);
-            }
+            // float theta = UnityEngine.Random.Range(0f, 2f * MathF.PI);
+            float theta = ((float)j / (float)enemy_count) * 2f * MathF.PI;
+            float x = enemy_radius * MathF.Cos(theta);
+            float y = enemy_radius * MathF.Sin(theta);
+            Instantiate(enemy, new Vector3(x + heading.x, y + heading.y, 20), Quaternion.identity);
         }
+
     }
 
     // Update is called once per frame

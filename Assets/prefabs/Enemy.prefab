@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 7509792939441492771, guid: 5a8eed77291b0137f90574290172db53, type: 3}
   fire_rate: 1
-  fire_speed: 3
+  fire_speed: 2
 --- !u!58 &8047307175107708102
 CircleCollider2D:
   m_ObjectHideFlags: 0

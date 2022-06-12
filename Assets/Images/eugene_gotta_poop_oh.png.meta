@@ -1,0 +1,3434 @@
+fileFormatVersion: 2
+guid: e16b427f3774c356087769950e789dfe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 280
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee617e2762e58c06083e799d14501de5
+      internalID: 149826929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3183bc412cd60d63bb7093050bbf4168
+      internalID: 167084338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0425bc41a995e7bbc47c6e8e2ef27c
+      internalID: 1949292366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_3
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486e22e9e66491c22877560f4c3f5e84
+      internalID: -2079291500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a2a71cdee26b72eb494bcff7328ab9
+      internalID: -973363114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_5
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64e69b83b271cd11960a85448663ef9
+      internalID: 967622552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_6
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a47a63a29ed825b8a8f380aafd70d42
+      internalID: 643336686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_7
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282ffe4d3ca70c72ba48d389bf505af3
+      internalID: 115517741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_8
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b9574904df740bfbf2b24cc9066b3d
+      internalID: -1056092604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_9
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667302befba72046793fdc9f2fedf199
+      internalID: -1343383504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_10
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b15e6370ea0ec405a21b029816a485f
+      internalID: -1341332375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_11
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca8664ffa70b8081a1bdda444a69ba9
+      internalID: 811762067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_12
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b894a518947228d96b6d529a31c647
+      internalID: -919726927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_13
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7774b626af168badea24e4a4551ebae5
+      internalID: -1292975198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_14
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80543c66b9f4d6f7aab2c07475bcca64
+      internalID: -1265881714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_15
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d2b3a34ccaf3f22b388490ff70e992
+      internalID: -1861033430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_16
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6100a2acb1cc1a81eab8bb5595fd3cc8
+      internalID: 301176186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_17
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764537616a384a007ac99c980d3a26b1
+      internalID: -1179106794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_18
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc1e37954403a3b2ba9a46780bc8387
+      internalID: 2137905852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_19
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bb48f15851ea4b8a29716996b69c82
+      internalID: -661596880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_20
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7396fa21ad45966ddaa15ccff34b43f9
+      internalID: -1501696625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_21
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 5190
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f309bb6f6b5c8ea64b8ae2eb2c661848
+      internalID: 523958963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504219ea411887287a4fed948ac36e6c
+      internalID: 1526446550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d799071e664d647a5a37789118f037ee
+      internalID: -827549153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348ddab84b8c9da119c87e83b438e9e4
+      internalID: -976079195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_25
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15241ba5a4cc5f7b9e49db707e17e1c
+      internalID: -354729627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_26
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7c1dbc99b4132529a7d23e95ce0ca1
+      internalID: 1009999312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_27
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34996f5bc17cd788807faf0087f0121
+      internalID: 540505847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_28
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a894bc101523df5669126a115987f948
+      internalID: -1005232200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_29
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596f34fd69830a355ab0823758e8c0c0
+      internalID: 1274648675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_30
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc62b3cc653dd0e91969b4dab9d5b55c
+      internalID: 333297115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_31
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a61340dc98f42027991e21dca1368ec
+      internalID: -1918132530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_32
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0c8b600983f510d8b7c10a37538ef5
+      internalID: 711297213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_33
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598569f9f4865f76fa7b6742f7d5b2a3
+      internalID: -282014550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_34
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58f4571aed5f2bdfa6417a4bfa21da2
+      internalID: -1607848391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_35
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9b7fa9747669b34ac141bff0771385
+      internalID: -2051071750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_36
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd0e2f7341fa07fab426acae67bcff7
+      internalID: -190771663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_37
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d600b07e616090d2be0c8d4a678157d
+      internalID: -1991806748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_38
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd87272f530fe47eac6d3954badc020
+      internalID: 1785226937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_39
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e3e59131337a515917947a2b6c4f3c
+      internalID: 210533404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_40
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8aa6bb204b35a708b72c8bed6da82e8
+      internalID: 1257050595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_41
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf484501d82c50e32919c34bd7104bf7
+      internalID: -1981768402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_42
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319137bca5bb27bd7a7149b818054f45
+      internalID: 274838295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_43
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 4325
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d806c170f53aaf948aaaef26eae88749
+      internalID: 668376432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac848070b938fceda160cb75cd9d9b2
+      internalID: 196382880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_45
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5d82f7256503250ba978a20d9533de
+      internalID: -111626220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4ef84d8eabdd40990fb9213c6d1156
+      internalID: 1280040871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_47
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ef21ec0d711f72f84332ae6c04f610
+      internalID: 272547797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_48
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c54d8584f8437fdaa50440353425f7
+      internalID: -1186593701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_49
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c8c958c6d1186d3a6a410d96f21bd3
+      internalID: -857336942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_50
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca9e2c5f568a92819b0cc7f6a8b2b34
+      internalID: 1146140139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_51
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da826b64915c9d35b34d9aa889ac3c7
+      internalID: 667396160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_52
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d7730f9138bcd6934a7c98f9c3950
+      internalID: 79855309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_53
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa4dd8b3e0a4f5a8b528dbe23def907
+      internalID: -1034483385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_54
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1554226ae16b22daa09680fe080178
+      internalID: -1411186271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_55
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141a0df833dd10d1c908d7d54e4696e5
+      internalID: -1418511658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_56
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc19b4502bb24744bcac86f588b7d3e
+      internalID: 288023196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_57
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fe41f7350cddd209225aeb1d6b8e0e
+      internalID: -365162600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_58
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9587d583958f14bf380f36c60ed9899c
+      internalID: -240433917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_59
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ba4da190b13aee6b9073d9d60fd409
+      internalID: 333427992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_60
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5241f7f209932f9d1a1edacf1c8ac930
+      internalID: 1311603629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_61
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa4594d017d3ec948d80df0f56fce9e
+      internalID: -1664261356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_62
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9325796772b851ea63ebe98257e601
+      internalID: -1270238697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_63
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a04f6102f280a59896c65393d98c65
+      internalID: 1133002559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_64
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01cad0e91380bbf78d96cda31cf5ffb
+      internalID: 2133686296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_65
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 3460
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9409119893266c6f381f77f6a1d827f7
+      internalID: 1991357705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569c4ea7aabb6ffbebebddf6284fc248
+      internalID: -307654657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aafd8d9d17ef2d6b900505a9f6b33b
+      internalID: 511387530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_68
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc045969e7b94c7b98b2b076d0fd42f0
+      internalID: 353704986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_69
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d6b83316f1700ab8d3c6e9cb54997b
+      internalID: -2103700845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_70
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05f21fdb9506774b9aeb08b3cce2c5c
+      internalID: 1422458436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_71
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3c03d89155d9a73a5372d9036715f4
+      internalID: 1811500371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_72
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b5574422bf0d4d6b64ef07fee5ad4b
+      internalID: -1868209045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_73
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ff89a5dd612c905ae2f8b8d9434cde
+      internalID: 855109042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_74
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac8b3071880659688dfa5b92a256f75
+      internalID: -200585750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_75
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a40bfcbfafc22090a53e66fc83bb8
+      internalID: 1339673579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_76
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791cb755bc6369a09a42669cf85d5aed
+      internalID: 1727219258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_77
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0c9555bb482cee6a0bf761b861686e
+      internalID: -69250977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_78
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e314d79ca8c578486eb4c68879faab
+      internalID: 759424475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_79
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b3e6ec39ae70da1b4494e97a39c985
+      internalID: 703159752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_80
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fb797e162865576b82ae1a706975d1
+      internalID: -2016729790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_81
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6d16747f115e685823eb67bf578f7d
+      internalID: 128038525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_82
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afe76e903f33a03bb90e07bc05ed43a
+      internalID: 731442281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_83
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83416f209e1f58b23b6610ceafb98a02
+      internalID: 163806988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_84
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c1d429a1db3469f9762917c5551851
+      internalID: -889523822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_85
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beef6dfe66526f468ba18b686849c899
+      internalID: 1261274607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_86
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af005f1c7b0ddf41a8566d25233e30fa
+      internalID: -773394307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_87
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 2595
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4d896c4fcda1c3882170dd9e06dad6
+      internalID: -820870259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6429d6a8ac58780af17f26fb19b546
+      internalID: -1264911915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_89
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cf30b9234ab723283bfa8e18111c05
+      internalID: 749356227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_90
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73614a4d5a2611b36a3f1bea862b4a6f
+      internalID: -188867688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_91
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5271542028951f2b9b4a8f39cd37c104
+      internalID: -536433542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_92
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8baca6751cfc25b9e70440c9f6167a
+      internalID: 1454603165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_93
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527e25891084bb4bbaa4e03b91ecfbf1
+      internalID: 523933782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_94
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4096bd01e50de4e7ea092dfbb0e4cfe5
+      internalID: -1325806249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_95
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f94a59351606d91b7ce16bf2b4e2a0
+      internalID: 906984524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_96
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a547cbb671c3352eaba25568d3ed5d1
+      internalID: 1820409820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_97
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf663c933535b720b3ec47d2699df52
+      internalID: -648102349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_98
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099299a0d599b048f8dbce439b4031df
+      internalID: 1953801687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_99
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227650e3ec0dc16e78b0f47bb97ec12d
+      internalID: 1653228828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_100
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86b537c5049fa7c488a7780e66b26d3
+      internalID: 2132294326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_101
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ee98759d75d3ce293f9b95d8fe0417
+      internalID: -1714311453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_102
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a75a9602b602f65b42799fd808ddf8
+      internalID: 66492102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_103
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc08edc8370df1aebd2f01ea7005b28
+      internalID: 738583762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_104
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92e6bf0790eb3643b355ced1ce2954f
+      internalID: -1649347497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_105
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0834c418ee5e5d58769412b8a6b5c1
+      internalID: -1432370427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_106
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c9e4c4892e526b698cc3cd86ee4fb1
+      internalID: -383265488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_107
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c61632a9b79cabdaa6d808a3356bc3
+      internalID: 1318467965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_108
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb5d941e47e975ee83284e0e7e89e08
+      internalID: -2099584310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_109
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 1730
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e55e77ac3c345db5332b1912d577d
+      internalID: -1774526261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407ecc60e7a30a3baa97a21bc8096b8c
+      internalID: -103687740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_111
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ab329a9c612eb16bbd7e9f67609a58
+      internalID: -547492460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_112
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e59ce1324993ba398bca4df028fd103
+      internalID: -885340241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_113
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e186b05647494d3c48f1f6861163c67b
+      internalID: 515007335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_114
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73f9198911a90ee3a2188efd5f62882
+      internalID: 1671762113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_115
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bc64e6caea4edc9b4a3437b85d0884
+      internalID: 1591901814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_116
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9a6c01e94ffb8fc95e3b69c0651d8d
+      internalID: 1908366474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_117
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d4d7dfe4d416afb9ac5f3ff9386c1a
+      internalID: -1957973903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_118
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94417c6b2e43c364cad82cb107f2d8e8
+      internalID: 803500267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_119
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b706600e78ba57a49ce8f8a450a9ef4
+      internalID: 771364378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_120
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5528f7c7b896d098a5a926e0db3706
+      internalID: 1956964285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_121
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b113d0e83424c4d9218bcf94b5ed10
+      internalID: -2038961539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_122
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea053b4858d23bad4b4e7a6eabfe0551
+      internalID: -1698044131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_123
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bf87b017024e84d9bebb19fabe4030
+      internalID: 2054022833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_124
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a544c6fce6212e6aca6ef48e991323cc
+      internalID: -1977427847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_125
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2f1d167ede617dfab0bf04054481d1
+      internalID: -1988166231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_126
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a71b3fc18c8a395bb029b03d4f774d
+      internalID: 676821886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_127
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb73c6ca602e1597ab58102e5442bb98
+      internalID: 1397120458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_128
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b27a44240b012bfafd2dc5c314b1c0
+      internalID: 223504215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_129
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68489917758bc36489a3bdc8ed89f1a5
+      internalID: -1790694297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_130
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa9f17eb18724441b78a1114243567b
+      internalID: -1738331599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_131
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 865
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a04bca8ad316bfaba038e3a9dd9d0a
+      internalID: 730486585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b053ca57feb4e5c9eedb87c99d6e61
+      internalID: -1221408773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_133
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c8e821e39ffb31b9835e4826b3fe4a
+      internalID: 571560226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_134
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7a562cdb0cffe299205738efd0c9e5
+      internalID: 1390454600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_135
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ac821bcce02016fbbaa4a45bca704f
+      internalID: 1912257030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_136
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363eb8300b9fe827d81b48d6c4adf24a
+      internalID: -102008766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_137
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155a3e8f48085adf4a843e5bee914cf6
+      internalID: -1615760509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_138
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60f8ea8310e89b5ca52194f9b955dbb
+      internalID: -1735489692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_139
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90583767cab677aeb8f86b795d41fb68
+      internalID: -1185684253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_140
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29e0c60eeb57d3290a89e18260ff06
+      internalID: 1823081116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_141
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3503f7872030d68eda2ba2336ac3c7ba
+      internalID: -584361782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_142
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c700a236f15faaa8f6c2cc563eff68
+      internalID: -736087370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_143
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ef73fa6e2eb3da4be92c202c1bf5b7
+      internalID: 1195366436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_144
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314ab8b665755d916a950ff0bf827a98
+      internalID: 1007077236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_145
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeaa3fb6b136ec05a26051840260013
+      internalID: -2051264069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_146
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67872b5936617668916234685f30165
+      internalID: 522868483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_147
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72efb613d9616ccdcb29f0b2af2823cf
+      internalID: 969043728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_148
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91c6c296af585e73acb19929beccd14
+      internalID: 2137649929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_gotta_poop_oh_149
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 0
+        width: 280
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63522b5e943fba95bbc2f7dfbec917a5
+      internalID: 1873990171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      eugene_gotta_poop_oh_127: 1397120458
+      eugene_gotta_poop_oh_80: -2016729790
+      eugene_gotta_poop_oh_147: 969043728
+      eugene_gotta_poop_oh_142: -736087370
+      eugene_gotta_poop_oh_102: 66492102
+      eugene_gotta_poop_oh_20: -1501696625
+      eugene_gotta_poop_oh_93: 523933782
+      eugene_gotta_poop_oh_113: 515007335
+      eugene_gotta_poop_oh_139: -1185684253
+      eugene_gotta_poop_oh_7: 115517741
+      eugene_gotta_poop_oh_22: 1526446550
+      eugene_gotta_poop_oh_12: -919726927
+      eugene_gotta_poop_oh_28: -1005232200
+      eugene_gotta_poop_oh_96: 1820409820
+      eugene_gotta_poop_oh_94: -1325806249
+      eugene_gotta_poop_oh_130: -1738331599
+      eugene_gotta_poop_oh_21: 523958963
+      eugene_gotta_poop_oh_66: -307654657
+      eugene_gotta_poop_oh_39: 210533404
+      eugene_gotta_poop_oh_75: 1339673579
+      eugene_gotta_poop_oh_70: 1422458436
+      eugene_gotta_poop_oh_51: 667396160
+      eugene_gotta_poop_oh_105: -1432370427
+      eugene_gotta_poop_oh_14: -1265881714
+      eugene_gotta_poop_oh_8: -1056092604
+      eugene_gotta_poop_oh_11: 811762067
+      eugene_gotta_poop_oh_135: 1912257030
+      eugene_gotta_poop_oh_78: 759424475
+      eugene_gotta_poop_oh_17: -1179106794
+      eugene_gotta_poop_oh_79: 703159752
+      eugene_gotta_poop_oh_81: 128038525
+      eugene_gotta_poop_oh_63: 1133002559
+      eugene_gotta_poop_oh_117: -1957973903
+      eugene_gotta_poop_oh_3: -2079291500
+      eugene_gotta_poop_oh_128: 223504215
+      eugene_gotta_poop_oh_72: -1868209045
+      eugene_gotta_poop_oh_65: 1991357705
+      eugene_gotta_poop_oh_1: 167084338
+      eugene_gotta_poop_oh_27: 540505847
+      eugene_gotta_poop_oh_74: -200585750
+      eugene_gotta_poop_oh_15: -1861033430
+      eugene_gotta_poop_oh_42: 274838295
+      eugene_gotta_poop_oh_13: -1292975198
+      eugene_gotta_poop_oh_67: 511387530
+      eugene_gotta_poop_oh_99: 1653228828
+      eugene_gotta_poop_oh_41: -1981768402
+      eugene_gotta_poop_oh_16: 301176186
+      eugene_gotta_poop_oh_112: -885340241
+      eugene_gotta_poop_oh_33: -282014550
+      eugene_gotta_poop_oh_44: 196382880
+      eugene_gotta_poop_oh_120: 1956964285
+      eugene_gotta_poop_oh_29: 1274648675
+      eugene_gotta_poop_oh_10: -1341332375
+      eugene_gotta_poop_oh_131: 730486585
+      eugene_gotta_poop_oh_106: -383265488
+      eugene_gotta_poop_oh_134: 1390454600
+      eugene_gotta_poop_oh_37: -1991806748
+      eugene_gotta_poop_oh_144: 1007077236
+      eugene_gotta_poop_oh_6: 643336686
+      eugene_gotta_poop_oh_140: 1823081116
+      eugene_gotta_poop_oh_132: -1221408773
+      eugene_gotta_poop_oh_73: 855109042
+      eugene_gotta_poop_oh_5: 967622552
+      eugene_gotta_poop_oh_50: 1146140139
+      eugene_gotta_poop_oh_77: -69250977
+      eugene_gotta_poop_oh_114: 1671762113
+      eugene_gotta_poop_oh_143: 1195366436
+      eugene_gotta_poop_oh_64: 2133686296
+      eugene_gotta_poop_oh_68: 353704986
+      eugene_gotta_poop_oh_38: 1785226937
+      eugene_gotta_poop_oh_23: -827549153
+      eugene_gotta_poop_oh_52: 79855309
+      eugene_gotta_poop_oh_138: -1735489692
+      eugene_gotta_poop_oh_4: -973363114
+      eugene_gotta_poop_oh_71: 1811500371
+      eugene_gotta_poop_oh_121: -2038961539
+      eugene_gotta_poop_oh_91: -536433542
+      eugene_gotta_poop_oh_95: 906984524
+      eugene_gotta_poop_oh_43: 668376432
+      eugene_gotta_poop_oh_88: -1264911915
+      eugene_gotta_poop_oh_124: -1977427847
+      eugene_gotta_poop_oh_90: -188867688
+      eugene_gotta_poop_oh_2: 1949292366
+      eugene_gotta_poop_oh_30: 333297115
+      eugene_gotta_poop_oh_148: 2137649929
+      eugene_gotta_poop_oh_97: -648102349
+      eugene_gotta_poop_oh_107: 1318467965
+      eugene_gotta_poop_oh_55: -1418511658
+      eugene_gotta_poop_oh_125: -1988166231
+      eugene_gotta_poop_oh_133: 571560226
+      eugene_gotta_poop_oh_26: 1009999312
+      eugene_gotta_poop_oh_19: -661596880
+      eugene_gotta_poop_oh_137: -1615760509
+      eugene_gotta_poop_oh_108: -2099584310
+      eugene_gotta_poop_oh_62: -1270238697
+      eugene_gotta_poop_oh_84: -889523822
+      eugene_gotta_poop_oh_9: -1343383504
+      eugene_gotta_poop_oh_111: -547492460
+      eugene_gotta_poop_oh_136: -102008766
+      eugene_gotta_poop_oh_101: -1714311453
+      eugene_gotta_poop_oh_141: -584361782
+      eugene_gotta_poop_oh_86: -773394307
+      eugene_gotta_poop_oh_61: -1664261356
+      eugene_gotta_poop_oh_40: 1257050595
+      eugene_gotta_poop_oh_87: -820870259
+      eugene_gotta_poop_oh_100: 2132294326
+      eugene_gotta_poop_oh_119: 771364378
+      eugene_gotta_poop_oh_126: 676821886
+      eugene_gotta_poop_oh_54: -1411186271
+      eugene_gotta_poop_oh_145: -2051264069
+      eugene_gotta_poop_oh_89: 749356227
+      eugene_gotta_poop_oh_85: 1261274607
+      eugene_gotta_poop_oh_31: -1918132530
+      eugene_gotta_poop_oh_115: 1591901814
+      eugene_gotta_poop_oh_47: 272547797
+      eugene_gotta_poop_oh_83: 163806988
+      eugene_gotta_poop_oh_57: -365162600
+      eugene_gotta_poop_oh_92: 1454603165
+      eugene_gotta_poop_oh_116: 1908366474
+      eugene_gotta_poop_oh_103: 738583762
+      eugene_gotta_poop_oh_59: 333427992
+      eugene_gotta_poop_oh_76: 1727219258
+      eugene_gotta_poop_oh_110: -103687740
+      eugene_gotta_poop_oh_35: -2051071750
+      eugene_gotta_poop_oh_0: 149826929
+      eugene_gotta_poop_oh_53: -1034483385
+      eugene_gotta_poop_oh_56: 288023196
+      eugene_gotta_poop_oh_118: 803500267
+      eugene_gotta_poop_oh_146: 522868483
+      eugene_gotta_poop_oh_45: -111626220
+      eugene_gotta_poop_oh_48: -1186593701
+      eugene_gotta_poop_oh_25: -354729627
+      eugene_gotta_poop_oh_149: 1873990171
+      eugene_gotta_poop_oh_104: -1649347497
+      eugene_gotta_poop_oh_18: 2137905852
+      eugene_gotta_poop_oh_109: -1774526261
+      eugene_gotta_poop_oh_69: -2103700845
+      eugene_gotta_poop_oh_24: -976079195
+      eugene_gotta_poop_oh_98: 1953801687
+      eugene_gotta_poop_oh_34: -1607848391
+      eugene_gotta_poop_oh_123: 2054022833
+      eugene_gotta_poop_oh_122: -1698044131
+      eugene_gotta_poop_oh_46: 1280040871
+      eugene_gotta_poop_oh_129: -1790694297
+      eugene_gotta_poop_oh_49: -857336942
+      eugene_gotta_poop_oh_60: 1311603629
+      eugene_gotta_poop_oh_82: 731442281
+      eugene_gotta_poop_oh_58: -240433917
+      eugene_gotta_poop_oh_36: -190771663
+      eugene_gotta_poop_oh_32: 711297213
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

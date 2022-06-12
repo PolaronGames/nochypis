@@ -37,8 +37,11 @@ public class gravity : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        other_trans = other.gameObject.GetComponent(typeof(Transform)) as Transform;
-        other_rb = other.gameObject.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
-        object_list.Add((other_rb, other_trans));
+        if (other.gameObject.tag != "Bullet")
+        {
+            other_trans = other.gameObject.GetComponent(typeof(Transform)) as Transform;
+            other_rb = other.gameObject.GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
+            object_list.Add((other_rb, other_trans));
+        }
     }
 }

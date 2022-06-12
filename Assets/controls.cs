@@ -15,7 +15,7 @@ public class controls : MonoBehaviour
     public float camera_speed = 5f;
     HingeJoint2D joint;
     bool landed = false;
-    float zoom_scale = 2f;
+    float zoom_scale = 1f;
     Camera cam;
     public GameObject eugene;
     bool eugene_walking = false;
@@ -89,14 +89,24 @@ public class controls : MonoBehaviour
         }
         else
         {
+            
             // move camera to ship
-            Vector3 camera_dir = (Vector3)((Vector2)(transform.position - main_camera.transform.position));
-            float r = camera_dir.magnitude;
-            camera_dir.Normalize();
-            main_camera_rb.velocity = camera_dir * r * r * camera_speed;
+            float dist = ((Vector2)(transform.position - main_camera.transform.position)).magnitude;
+            if (dist > 0.05)
+            {
+                Vector3 camera_dir = (Vector3)((Vector2)(transform.position - main_camera.transform.position));
+                float r = camera_dir.magnitude;
+                camera_dir.Normalize();
+                main_camera_rb.velocity = camera_dir * r * r * camera_speed;
 
-            // adjust camera scale based on speed
-            cam.orthographicSize += (10f + rb.velocity.magnitude - cam.orthographicSize) * Time.deltaTime / 10f;
+                // adjust camera scale based on speed
+                cam.orthographicSize += (10f + rb.velocity.magnitude - cam.orthographicSize) * Time.deltaTime / 10f;
+            }
+            else
+            {
+                main_camera_rb.velocity = new Vector3(0, 0, 0);
+            }
+
         }
 
     }
@@ -107,17 +117,12 @@ public class controls : MonoBehaviour
         {
             //stop planet spinning
             other.gameObject.GetComponent<spin>().spin_speed = 0f;
-            // destroy all enemies and bullets
-            var enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            var bullets = GameObject.FindGameObjectsWithTag("Bullet");
-            foreach (GameObject enemy in enemies)
-            {
-                Destroy(enemy);
-            }
-            foreach (GameObject bullet in bullets)
-            {
-                Destroy(bullet);
-            }
+
+            //var bullets = GameObject.FindGameObjectsWithTag("Bullet");
+            //foreach (GameObject bullet in bullets)
+            //{
+            //    Destroy(bullet);
+            //}
 
             landed = true;
             GameObject.FindGameObjectWithTag("Exhaust").GetComponent<exhaust>().ship_landed = true;
@@ -130,15 +135,27 @@ public class controls : MonoBehaviour
                 Vector2 dir = transform.position - other.gameObject.transform.position;
                 Vector3 eugene_pos = (Vector2)other.gameObject.transform.position + distance_from_planet_center * dir;
                 eugene_pos.z = transform.position.z;
-                Instantiate(eugene, eugene_pos, Quaternion.identity);
+                var eugene_obj = Instantiate(eugene, eugene_pos, Quaternion.identity);
+                // make all enemies target Eugene
+                var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+                foreach (GameObject enemy in enemies)
+                {
+                    //Destroy(enemy);
+                    enemy.GetComponent<enemy>().player = eugene_obj;
+                    enemy.GetComponent<enemy>().player_rb = eugene_obj.GetComponent<Rigidbody2D>();
+                }
             }
         }
-        if (other.gameObject.tag == "Bullet")
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Bullet" && !landed)
         {
             //Destroy(this.gameObject);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+
     //private void OnCollisionExit2D(Collision2D other)
     //{
     //    joint.enabled = false;
